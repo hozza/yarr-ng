@@ -1,11 +1,34 @@
-# yarr
+# yarr-ng
 
-**yarr** (yet another rss reader) is a web-based feed aggregator which can be used both
-as a desktop application and a personal self-hosted server.
+**yarr-ng** (yet another rss reader, next generation) is a web-based feed aggregator which can be used both
+as a desktop application and a personal self-hosted web-server for a single user.
+
+This is a next generation fork of the amazing [yarr](https://github.com/nkanaev/yarr) RSS reader by [nkanaev](https://github.com/nkanaev/). 
+
+yarr-ng hopes to build on the original repo's excellent base, and add some quality of live improvements. The upstream yarr's repo is deemed feature complete, and so improvements are few and far between. This project is for those who want a liitle more out of yarr.
+
+
+## yarr-ng todo
+
+Done tasks are changes from the upstream yarr repo.
+
+- [x] fork
+- [ ] improve readme
+- [ ] docker setup
+- [ ] auto build and publish
+- [ ] improve docs
+- [ ] enlarge mobile UI
+- [ ] error feedback
+- [ ] flatpak?
+- [ ] pikapod?
+
+
+## architecture
 
 The app is a single binary with an embedded database (SQLite).
 
 ![screenshot](etc/promo.png)
+
 
 ## usage
 
